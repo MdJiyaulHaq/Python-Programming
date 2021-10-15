@@ -2,7 +2,7 @@
 list1 = ["Md", "is", "learning", "python", "from", "W3", "school"]
 list2 = ["He", "will", "complete", "it", "soon"]
 
-# join the lists defn
+# join the lists default method
 list3 = list1+list2
 print(list3)
 
