@@ -1,4 +1,36 @@
-# parent class definition
+# # parent class definition
+# class Engineer:
+#     def __init__(self, fname, lname):
+#         self.firstname = fname
+#         self.lastname = lname
+#
+#     def printname(self):
+#         print(self.firstname, self.lastname)
+#
+#
+# e1 = Engineer("Muhammad", "Ali")
+# e1.printname()
+#
+#
+# # child class
+# class Software(Engineer):
+#     def __init__(self, fname, lname, profession):  # the moment you call __init__ function in the child class,
+#         # the __init__of parent class is not derived'''
+#         self.profession = profession
+#         self.firstname = fname
+#         self.lastname = lname
+#
+#     def printnameandprofession(self):
+#         print(self.firstname, self.lastname, self.profession)
+#
+#
+# s1 = Software("Programmer", "Boy", "Python")
+# s1.printnameandprofession()
+
+
+
+
+
 class Engineer:
     def __init__(self, fname, lname):
         self.firstname = fname
@@ -14,12 +46,10 @@ e1.printname()
 
 # child class
 class Software(Engineer):
-    def __init__(self, profession):
-        self.profession = profession
-
-    def printprofession(self):
-        print("Software engineers knows Python programming")
+    # To keep the inheritance of the parent's __init__() function, add a call to the parent's __init__() function:
+    def __init__(self, fname, lname):
+        Engineer.__init__(self, fname, lname)  # that's it, too simple
 
 
-s1 = Software("Python")
-s1.printprofession()
+s1 = Software("Programmer", "Boy")
+s1.printname()
