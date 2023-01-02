@@ -1,6 +1,6 @@
 # Python-Programming
 
-I am currently learning this courses from W3 website many others. I recommend beginners to follow these references. These are the best that you can find online.
+I am currently learning this courses from W3 website and many others. I recommend beginners to follow these references. These are the best that you can find online.
 
 Thank you!
 
