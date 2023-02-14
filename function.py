@@ -67,4 +67,4 @@ n = int(input())
 for i in range(n):
     factorial = factorial * (i + 1)
 
-print("factorial of {n} is {factorial}:")
+print(f"factorial of {n} is {factorial}:")
