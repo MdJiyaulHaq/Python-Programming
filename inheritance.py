@@ -20,12 +20,12 @@
 #         self.firstname = fname
 #         self.lastname = lname
 #
-#     def printnameandprofession(self):
+#     def professionalisation(self):
 #         print(self.firstname, self.lastname, self.profession)
 #
 #
 # s1 = Software("Programmer", "Boy", "Python")
-# s1.printnameandprofession()
+# s1.professionalisation()
 
 
 
