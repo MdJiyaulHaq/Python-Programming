@@ -5,8 +5,8 @@ print(aTuple)
 print(type(aTuple))
 # output is "str"
 newTuple = ("Md",)
-print(newTupleuple)
-print(type(newTupleuple))
+print(newTuple)
+print(type(newTuple))
 # output is "tuple"
 
 
